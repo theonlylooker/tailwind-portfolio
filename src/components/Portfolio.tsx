@@ -12,14 +12,20 @@ const Portfolio = () => {
     {
       id: 1,
       src: work1,
+      demo: "https://moonlit-panda-ff1f33.netlify.app/",
+      code: "https://github.com/theonlylooker/dropdown-navigation",
     },
     {
       id: 2,
       src: work2,
+      demo: "https://theonlylooker.github.io/advise-generator-app/",
+      code: "https://github.com/theonlylooker/advise-generator-app",
     },
     {
       id: 3,
       src: work3,
+      demo: "https://reliable-daifuku-91f379.netlify.app/",
+      code: "https://github.com/theonlylooker/space-tourism",
     },
   ];
   return (
@@ -31,12 +37,12 @@ const Portfolio = () => {
         />
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolioWorks &&
-            portfolioWorks.map(({ id, src }) => (
+            portfolioWorks.map(({ id, src, demo, code }) => (
               <GridItem
                 key={id}
                 img={src}
                 portfolio={true}
-                buttons={<PortfolioButtons />}
+                buttons={<PortfolioButtons demo={demo} code={code} />}
               />
             ))}
         </div>

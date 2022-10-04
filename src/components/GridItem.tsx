@@ -27,7 +27,7 @@ const GridItem = ({ img, buttons, portfolio, style, text }: GridItemProps) => {
         src={img}
         alt=""
       />
-      {buttons && <PortfolioButtons />}
+      {buttons && buttons}
       {text && <ExperienceText title={text} />}
     </div>
   );

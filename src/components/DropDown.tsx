@@ -3,9 +3,10 @@ import DropDownItem from "./DropDownItem";
 
 interface DropDownProps {
   modal?: boolean;
+  CModal?: () => void;
 }
 
-const DropDown = ({ modal }: DropDownProps) => {
+const DropDown = ({ modal, CModal }: DropDownProps) => {
   const Links = [
     {
       id: 1,
@@ -33,7 +34,11 @@ const DropDown = ({ modal }: DropDownProps) => {
       <ul className="flex flex-col items-center md:flex-row">
         {Links &&
           Links.map((element) => (
-            <DropDownItem key={element.id} name={element.link} />
+            <DropDownItem
+              key={element.id}
+              name={element.link}
+              CModal={CModal}
+            />
           ))}
       </ul>
     </nav>

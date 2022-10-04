@@ -3,14 +3,15 @@ import DropDown from "./DropDown";
 
 interface ModalProps {
   modal: boolean;
+  CModal: () => void;
 }
 
-const Modal = ({ modal }: ModalProps) => {
+const Modal = ({ modal, CModal }: ModalProps) => {
   return (
     <>
       {modal && (
         <div className={`modal`}>
-          <DropDown modal={modal} />
+          <DropDown modal={modal} CModal={CModal} />
         </div>
       )}
     </>

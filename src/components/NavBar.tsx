@@ -4,7 +4,7 @@ import DropDown from "./DropDown";
 import Modal from "./Modal";
 import { FaTimes, FaBars } from "react-icons/fa";
 const NavBar = () => {
-  const [modal, Amodal] = useModal();
+  const [modal, Amodal, CModal] = useModal();
   return (
     <div className="flex justify-between items-center w-full h20 bg-black text-white fixed px-4">
       <h1 className="text-5xl font-signature ml-2">Onlylooker</h1>
@@ -17,7 +17,7 @@ const NavBar = () => {
       >
         {modal ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
-      <Modal modal={modal} />
+      <Modal modal={modal} CModal={CModal} />
     </div>
   );
 };
