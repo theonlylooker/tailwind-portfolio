@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-
-/* Eliminar closeModal y crear context  */
+import { useState } from "react";
 
 const useModal = (): [boolean, () => void, () => void] => {
   const [modal, setModal] = useState(false);

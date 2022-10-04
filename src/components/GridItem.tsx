@@ -1,6 +1,5 @@
 import React from "react";
 import ExperienceText from "./ExperienceText";
-import PortfolioButtons from "./PortfolioButtons";
 
 interface GridItemProps {
   img: string;
@@ -15,7 +14,7 @@ const GridItem = ({ img, buttons, portfolio, style, text }: GridItemProps) => {
       className={`shadow-md ${
         portfolio === true
           ? "shadow-gray-600"
-          : "hover:scale-105 duration-500 py-2 rounded-lg" + " " + style
+          : `hover:scale-105 duration-500 py-2 rounded-lg ${style}`
       } rounded-lg`}
     >
       <img
