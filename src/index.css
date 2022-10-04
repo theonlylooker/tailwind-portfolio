@@ -12,3 +12,15 @@
 .item{
      @apply px-4 py-6 cursor-pointer capitalize text-4xl text-gray-500 md:text-base md:font-medium md:hover:scale-105 duration-200 
 }
+.modal{
+    @apply md:hidden absolute grid place-items-center top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-500
+}
+.section{
+    @apply w-full h-screen bg-gradient-to-b text-white
+}
+.sectionLayout{
+    @apply max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full
+}
+.portfolioButton{
+    @apply w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105
+}
