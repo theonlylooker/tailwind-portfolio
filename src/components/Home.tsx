@@ -11,10 +11,8 @@ const Home = () => {
             I'm a Front End Developer
           </h2>
           <p className="py-4 max-w-md text-gray-500">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-            dolore aperiam temporibus saepe illum delectus? Minus delectus
-            minima, aperiam doloremque, hic vel placeat commodi cupiditate omnis
-            modi voluptates ipsa eaque?
+            My name is Eduardo i'm a front end developer with knowledge of
+            ReactJS and NodeJS
           </p>
           <div>
             <Link

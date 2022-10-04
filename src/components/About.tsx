@@ -8,19 +8,18 @@ const About = () => {
       <div className="sectionLayout">
         <SectionTitle title="About" />
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
-          laudantium similique unde, laboriosam non ut, fuga distinctio
-          perspiciatis quibusdam, laborum consequatur facilis labore est
-          accusamus consectetur? Rem reprehenderit maiores cumque!
+          I am a graduate and bachelor of Computer Science, I have knowledge in
+          languages like C++, Python, MySql and with them I developed basic
+          recommender systems as well as a short path system for web. Creating
+          the short path system I started to use more javascript and JSON
+          collections which made me curious and I started to deepen in this
+          language and web development.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
-          explicabo? Vero, enim. Voluptas, eius rem! Velit facere quasi veniam
-          voluptatibus laborum itaque rerum non, provident nesciunt voluptas vel
-          doloremque, obcaecati praesentium corporis maxime. Iusto labore, quia
-          numquam dicta facilis unde alias eius magnam ipsum eligendi velit,
-          odio tempore deserunt fuga?
+          I went deeper in HTML, CSS, Javascript then I went on with ReactJS,
+          NodeJS, interaction with MongoDB. I'm still a beginner but I'm hungry
+          for knowledge.
         </p>
       </div>
     </Element>
