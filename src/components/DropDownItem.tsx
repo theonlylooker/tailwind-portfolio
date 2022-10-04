@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-scroll";
-import useModal from "../hooks/useModal";
 interface DropDownItemProps {
   name: string;
   CModal?: () => void;
