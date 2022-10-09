@@ -29,15 +29,6 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
-        </>
-      ),
-      href: "mailto:ebasurcoc@gmail.com",
-    },
-    {
-      id: 4,
-      child: (
-        <>
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
