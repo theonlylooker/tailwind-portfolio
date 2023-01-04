@@ -4,6 +4,7 @@ import SectionTitle from "./SectionTitle";
 import work1 from "../assets/portfolio/work1.png";
 import work2 from "../assets/portfolio/work2.png";
 import work3 from "../assets/portfolio/work3.png";
+import work4 from "../assets/portfolio/work4.png";
 import GridItem from "./GridItem";
 import PortfolioButtons from "./PortfolioButtons";
 
@@ -26,6 +27,12 @@ const Portfolio = () => {
       src: work3,
       demo: "https://reliable-daifuku-91f379.netlify.app/",
       code: "https://github.com/theonlylooker/space-tourism",
+    },
+    {
+      id: 4,
+      src: work4,
+      demo: "https://theonlylooker.github.io/pokemon-calculator/",
+      code: "https://github.com/theonlylooker/pokemon-calculator",
     },
   ];
   return (
