@@ -5,6 +5,7 @@ import work1 from "../assets/portfolio/work1.png";
 import work2 from "../assets/portfolio/work2.png";
 import work3 from "../assets/portfolio/work3.png";
 import work4 from "../assets/portfolio/work4.png";
+import work5 from "../assets/portfolio/work5.png";
 import GridItem from "./GridItem";
 import PortfolioButtons from "./PortfolioButtons";
 
@@ -33,6 +34,12 @@ const Portfolio = () => {
       src: work4,
       demo: "https://theonlylooker.github.io/pokemon-calculator/",
       code: "https://github.com/theonlylooker/pokemon-calculator",
+    },
+    {
+      id: 5,
+      src: work5,
+      demo: "https://theonlylooker.github.io/react-calculator/",
+      code: "https://github.com/theonlylooker/react-calculator",
     },
   ];
   return (
