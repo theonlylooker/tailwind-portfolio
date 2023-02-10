@@ -14,14 +14,14 @@ const Portfolio = () => {
     {
       id: 1,
       src: work1,
-      demo: "https://moonlit-panda-ff1f33.netlify.app/",
-      code: "https://github.com/theonlylooker/dropdown-navigation",
+      demo: "https://theonlylooker.github.io/gpt3-landingpage/",
+      code: "https://github.com/theonlylooker/gpt3-landingpage",
     },
     {
       id: 2,
       src: work2,
-      demo: "https://theonlylooker.github.io/advise-generator-app/",
-      code: "https://github.com/theonlylooker/advise-generator-app",
+      demo: "https://moonlit-panda-ff1f33.netlify.app/",
+      code: "https://github.com/theonlylooker/dropdown-navigation",
     },
     {
       id: 3,
