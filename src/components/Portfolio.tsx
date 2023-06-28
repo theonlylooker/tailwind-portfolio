@@ -6,6 +6,7 @@ import work2 from "../assets/portfolio/work2.png";
 import work3 from "../assets/portfolio/work3.png";
 import work4 from "../assets/portfolio/work4.png";
 import work5 from "../assets/portfolio/work5.png";
+import work6 from "../assets/portfolio/work6.png";
 import GridItem from "./GridItem";
 import PortfolioButtons from "./PortfolioButtons";
 
@@ -14,30 +15,36 @@ const Portfolio = () => {
     {
       id: 1,
       src: work1,
-      demo: "https://theonlylooker.github.io/gpt3-landingpage/",
-      code: "https://github.com/theonlylooker/gpt3-landingpage",
+      demo: "https://eduardo-main-airbnb.onrender.com/",
+      code: "https://github.com/theonlylooker/react-nerdery-clone-app-challenge",
     },
     {
       id: 2,
       src: work2,
-      demo: "https://moonlit-panda-ff1f33.netlify.app/",
-      code: "https://github.com/theonlylooker/dropdown-navigation",
+      demo: "https://theonlylooker.github.io/gpt3-landingpage/",
+      code: "https://github.com/theonlylooker/gpt3-landingpage",
     },
     {
       id: 3,
       src: work3,
-      demo: "https://reliable-daifuku-91f379.netlify.app/",
-      code: "https://github.com/theonlylooker/space-tourism",
+      demo: "https://moonlit-panda-ff1f33.netlify.app/",
+      code: "https://github.com/theonlylooker/dropdown-navigation",
     },
     {
       id: 4,
       src: work4,
-      demo: "https://theonlylooker.github.io/pokemon-calculator/",
-      code: "https://github.com/theonlylooker/pokemon-calculator",
+      demo: "https://reliable-daifuku-91f379.netlify.app/",
+      code: "https://github.com/theonlylooker/space-tourism",
     },
     {
       id: 5,
       src: work5,
+      demo: "https://theonlylooker.github.io/pokemon-calculator/",
+      code: "https://github.com/theonlylooker/pokemon-calculator",
+    },
+    {
+      id: 6,
+      src: work6,
       demo: "https://theonlylooker.github.io/react-calculator/",
       code: "https://github.com/theonlylooker/react-calculator",
     },
